@@ -1,0 +1,1359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f2f25e80-cb95-43d4-9d30-3b29711144a4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Desktop/DJ_Starter/static/documents/doc_templates/motions/template_motion_CORI.docx" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Desktop/DJ_Starter/static/documents/doc_templates/motions/template_motion_advance_continue.docx" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Desktop/DJ_Starter/static/documents/doc_templates/motions/template_motion_appoint_appelate_counsel.docx" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Desktop/DJ_Starter/static/documents/doc_templates/motions/template_motion_funds_interpreter.docx" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Desktop/DJ_Starter/static/documents/doc_templates/motions/template_motion_required_finding.docx" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Desktop/DJ_Starter/static/documents/doc_templates/motions/template_motion_sequestration.docx" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Desktop/DJ_Starter/static/documents/doc_templates/notices/template_notice_appeal.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/custom_site_data/anotherone/static/documents/doc_templates/template_case_memo_lite.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/custom_site_data/testsite/static/documents/doc_templates/template_case_memo_lite.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/fonts/roboto/Roboto-Bold.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/fonts/roboto/Roboto-Bold.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/fonts/roboto/Roboto-Bold.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/fonts/roboto/Roboto-Bold.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/fonts/roboto/Roboto-Light.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/fonts/roboto/Roboto-Light.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/fonts/roboto/Roboto-Light.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/fonts/roboto/Roboto-Light.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/fonts/roboto/Roboto-Medium.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/fonts/roboto/Roboto-Medium.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/fonts/roboto/Roboto-Medium.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/fonts/roboto/Roboto-Medium.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/fonts/roboto/Roboto-Regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/fonts/roboto/Roboto-Regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/fonts/roboto/Roboto-Regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/fonts/roboto/Roboto-Regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/fonts/roboto/Roboto-Thin.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/fonts/roboto/Roboto-Thin.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/fonts/roboto/Roboto-Thin.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/fonts/roboto/Roboto-Thin.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/images/dehlia_umunna.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/images/developing_justice.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/images/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/images/harvard_shield.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/images/jennifer_mckinnon.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/images/kristin_muniz.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/images/lia_monahon.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/images/robert_proctor.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Scripts/easy_install-2.7.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Scripts/easy_install.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Scripts/pip.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Scripts/pip2.7.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Scripts/pip2.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Scripts/python.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Scripts/pythonw.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Scripts/wheel.exe" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Desktop/DJ_Starter/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Desktop/DJ_Starter/static/javascript/auto_populate.js" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Desktop/DJ_Starter/static/javascript/autocomplete_lists.js" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Desktop/DJ_Starter/static/javascript/autocomplete_maps.js" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Desktop/DJ_Starter/static/javascript/data_inspector.js" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Desktop/DJ_Starter/static/javascript/save_tmp.js" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Desktop/DJ_Starter/static/javascript/updatepage_loadmodal.js" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Desktop/DJ_Starter/static/javascript/updatepage_nextcard.js" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Desktop/DJ_Starter/static/javascript/updatepage_submitdata.js" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Desktop/DJ_Starter/static/python/delete_folder.py" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Desktop/DJ_Starter/static/python/email_attachments.py" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Desktop/DJ_Starter/static/python/email_calendar.py" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Desktop/DJ_Starter/static/python/format_data.py" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Desktop/DJ_Starter/static/python/make_cardlist.py" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Desktop/DJ_Starter/static/python/zip_docs.py" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Desktop/DJ_Starter/templates/admin.html" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Desktop/DJ_Starter/templates/email_card_instructor.html" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Desktop/DJ_Starter/templates/email_card_student.html" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Desktop/DJ_Starter/templates/error_card.html" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Desktop/DJ_Starter/templates/loader_card.html" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Desktop/DJ_Starter/templates/modal.html" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Desktop/DJ_Starter/templates/submitted_card.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/DJ.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/db26e17d-2b5e-4b9e-8612-20950779c974.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/db26e17d-2b5e-4b9e-8612-20950779c974/storage.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/admin/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/admin/forms.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/admin/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/auth/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/auth/forms.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/auth/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/home/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/home/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/site/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/site/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/css/DataInspector.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/css/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/css/index.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/css/index.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/css/materialize.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/css/materialize.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/css/styles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/custom_site_data/anotherone/static/tmp/model.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/custom_site_data/anotherone/static/tmp/test.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/custom_site_data/anotherone/templates/datum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/custom_site_data/testsite/static/tmp/model.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/custom_site_data/testsite/static/tmp/test.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/custom_site_data/testsite/templates/datum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/javascript/auto_populate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/javascript/autocomplete_lists.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/javascript/autocomplete_maps.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/javascript/data_inspector.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/javascript/enable_buttons.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/javascript/firstcard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/javascript/go.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/javascript/indexJs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/javascript/map.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/javascript/mapjs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/javascript/postback.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/javascript/save_tmp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/javascript/updatepage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/javascript/updatepage_color.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/javascript/updatepage_dictionary.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/javascript/updatepage_loadmodal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/javascript/updatepage_nextcard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/javascript/updatepage_submitdata.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/javascript/updatepage_toast.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/new_site_dirs_template/static/tmp/model.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/new_site_dirs_template/static/tmp/test.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/python/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/python/build_site_dirs.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/python/build_site_list.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/python/check_admin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/python/check_permission.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/python/delete_folder.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/python/email_attachments.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/python/email_calendar.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/python/format_data.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/python/make_cardlist.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/python/print_docs.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/python/read_excel.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/python/zip_docs.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/scss/components/_buttons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/scss/components/_cards.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/scss/components/_carousel.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/scss/components/_chips.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/scss/components/_collapsible.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/scss/components/_color.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/scss/components/_dropdown.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/scss/components/_global.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/scss/components/_grid.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/scss/components/_icons-material-design.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/scss/components/_materialbox.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/scss/components/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/scss/components/_modal.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/scss/components/_navbar.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/scss/components/_normalize.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/scss/components/_palette.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/scss/components/_prefixer.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/scss/components/_preloader.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/scss/components/_roboto.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/scss/components/_sideNav.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/scss/components/_slider.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/scss/components/_table_of_contents.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/scss/components/_tabs.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/scss/components/_toast.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/scss/components/_tooltip.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/scss/components/_typography.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/scss/components/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/scss/components/_waves.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/scss/components/date_picker/_default.date.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/scss/components/date_picker/_default.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/scss/components/date_picker/_default.time.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/scss/components/forms/_checkboxes.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/scss/components/forms/_file-input.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/scss/components/forms/_forms.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/scss/components/forms/_input-fields.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/scss/components/forms/_radio-buttons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/scss/components/forms/_range.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/scss/components/forms/_select.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/scss/components/forms/_switches.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/scss/materialize.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/admin/departments/department.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/admin/departments/departments.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/admin/roles/role.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/admin/roles/roles.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/admin/sites/site.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/admin/sites/sites.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/admin/sites/uploadfile.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/admin/sites/user_sites.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/admin/users/user.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/admin/users/users.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/auth/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/auth/register.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/base.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/errors/403.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/errors/404.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/errors/500.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/home/admin_dashboard.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/home/dashboard.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/home/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/site/admin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/site/buttons.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/site/card.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/site/card_type.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/site/card_type_select.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/site/card_type_textbox.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/site/email_card_instructor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/site/email_card_student.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/site/error_card.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/site/headers.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/site/help_box.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/site/home.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/site/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/site/layout.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/site/loader_card.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/site/modal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/site/nav.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/site/splash.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/site/submitted_card.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/instance/config.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/migrations/README" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/migrations/alembic.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/migrations/env.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/migrations/script.py.mako" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/migrations/versions/19c0c8ce76ee_.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/migrations/versions/4cd9de820a2e_.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/migrations/versions/af7b89b7d04c_.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requirements.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/run.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/Python-ast.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/Python.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/abstract.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/asdl.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/ast.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/bitset.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/boolobject.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/bufferobject.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/bytearrayobject.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/bytes_methods.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/bytesobject.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/cStringIO.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/cellobject.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/ceval.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/classobject.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/cobject.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/code.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/codecs.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/compile.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/complexobject.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/datetime.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/descrobject.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/dictobject.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/dtoa.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/enumobject.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/errcode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/eval.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/fileobject.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/floatobject.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/frameobject.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/funcobject.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/genobject.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/graminit.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/grammar.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/import.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/intobject.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/intrcheck.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/iterobject.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/listobject.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/longintrepr.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/longobject.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/marshal.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/memoryobject.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/metagrammar.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/methodobject.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/modsupport.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/moduleobject.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/node.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/object.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/objimpl.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/opcode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/osdefs.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/parsetok.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/patchlevel.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/pgen.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/pgenheaders.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/py_curses.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/pyarena.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/pycapsule.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/pyconfig.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/pyctype.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/pydebug.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/pyerrors.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/pyexpat.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/pyfpe.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/pygetopt.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/pymacconfig.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/pymactoolbox.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/pymath.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/pymem.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/pyport.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/pystate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/pystrcmp.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/pystrtod.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/pythonrun.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/pythread.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/rangeobject.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/setobject.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/sliceobject.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/stringobject.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/structmember.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/structseq.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/symtable.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/sysmodule.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/timefuncs.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/token.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/traceback.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/tupleobject.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/ucnhash.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/unicodeobject.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/warnings.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Include/weakrefobject.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Scripts/activate" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Scripts/activate.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Scripts/activate.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Scripts/activate_this.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/Scripts/deactivate.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/tcl/tcl8.5/encoding/cp1251.enc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/tcl/tcl8.5/encoding/cp1252.enc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/tcl/tcl8.5/encoding/cp1253.enc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/tcl/tcl8.5/encoding/cp775.enc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/tcl/tcl8.5/encoding/cp855.enc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/tcl/tcl8.5/encoding/cp860.enc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/tcl/tcl8.5/encoding/cp869.enc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/tcl/tcl8.5/encoding/cp936.enc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/tcl/tcl8.5/encoding/cp949.enc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/tcl/tcl8.5/encoding/dingbats.enc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/tcl/tcl8.5/encoding/euc-jp.enc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/tcl/tcl8.5/encoding/euc-kr.enc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/tcl/tcl8.5/encoding/gb12345.enc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/tcl/tcl8.5/encoding/gb2312.enc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/tcl/tcl8.5/encoding/iso8859-14.enc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/tcl/tcl8.5/encoding/iso8859-15.enc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/tcl/tcl8.5/encoding/iso8859-7.enc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/tcl/tcl8.5/encoding/jis0201.enc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/tcl/tcl8.5/encoding/macCyrillic.enc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/tcl/tcl8.5/encoding/macIceland.enc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtual/tcl/tcl8.5/encoding/macUkraine.enc" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/Procfile" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/cji_intake.py" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/node_modules/materialize-autocomplete/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/node_modules/materialize-autocomplete/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/node_modules/materialize-autocomplete/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/node_modules/materialize-autocomplete/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/node_modules/materialize-autocomplete/examples/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/node_modules/materialize-autocomplete/jquery.materialize-autocomplete.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/node_modules/materialize-autocomplete/jquery.materialize-autocomplete.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/node_modules/materialize-autocomplete/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/requirements.txt" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/.sass-cache/153bb1f552a5799e04808111dbd24f829424ca55/materialize.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/.sass-cache/4b6d14b00a029f83cc3efd89457480de4da4d9ff/_checkboxes.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/.sass-cache/4b6d14b00a029f83cc3efd89457480de4da4d9ff/_file-input.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/.sass-cache/4b6d14b00a029f83cc3efd89457480de4da4d9ff/_forms.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/.sass-cache/4b6d14b00a029f83cc3efd89457480de4da4d9ff/_input-fields.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/.sass-cache/4b6d14b00a029f83cc3efd89457480de4da4d9ff/_radio-buttons.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/.sass-cache/4b6d14b00a029f83cc3efd89457480de4da4d9ff/_range.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/.sass-cache/4b6d14b00a029f83cc3efd89457480de4da4d9ff/_select.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/.sass-cache/4b6d14b00a029f83cc3efd89457480de4da4d9ff/_switches.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/.sass-cache/db191e2b653921a8cc5c312c7bdf8cb1b55d0f86/_default.date.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/.sass-cache/db191e2b653921a8cc5c312c7bdf8cb1b55d0f86/_default.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/.sass-cache/db191e2b653921a8cc5c312c7bdf8cb1b55d0f86/_default.time.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/.sass-cache/f872c091e101bcef9d1bac9c58b3a84ed77fc969/_buttons.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/.sass-cache/f872c091e101bcef9d1bac9c58b3a84ed77fc969/_cards.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/.sass-cache/f872c091e101bcef9d1bac9c58b3a84ed77fc969/_carousel.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/.sass-cache/f872c091e101bcef9d1bac9c58b3a84ed77fc969/_chips.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/.sass-cache/f872c091e101bcef9d1bac9c58b3a84ed77fc969/_collapsible.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/.sass-cache/f872c091e101bcef9d1bac9c58b3a84ed77fc969/_color.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/.sass-cache/f872c091e101bcef9d1bac9c58b3a84ed77fc969/_dropdown.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/.sass-cache/f872c091e101bcef9d1bac9c58b3a84ed77fc969/_global.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/.sass-cache/f872c091e101bcef9d1bac9c58b3a84ed77fc969/_grid.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/.sass-cache/f872c091e101bcef9d1bac9c58b3a84ed77fc969/_icons-material-design.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/.sass-cache/f872c091e101bcef9d1bac9c58b3a84ed77fc969/_materialbox.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/.sass-cache/f872c091e101bcef9d1bac9c58b3a84ed77fc969/_mixins.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/.sass-cache/f872c091e101bcef9d1bac9c58b3a84ed77fc969/_modal.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/.sass-cache/f872c091e101bcef9d1bac9c58b3a84ed77fc969/_navbar.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/.sass-cache/f872c091e101bcef9d1bac9c58b3a84ed77fc969/_normalize.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/.sass-cache/f872c091e101bcef9d1bac9c58b3a84ed77fc969/_palette.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/.sass-cache/f872c091e101bcef9d1bac9c58b3a84ed77fc969/_preloader.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/.sass-cache/f872c091e101bcef9d1bac9c58b3a84ed77fc969/_roboto.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/.sass-cache/f872c091e101bcef9d1bac9c58b3a84ed77fc969/_sideNav.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/.sass-cache/f872c091e101bcef9d1bac9c58b3a84ed77fc969/_slider.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/.sass-cache/f872c091e101bcef9d1bac9c58b3a84ed77fc969/_table_of_contents.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/.sass-cache/f872c091e101bcef9d1bac9c58b3a84ed77fc969/_tabs.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/.sass-cache/f872c091e101bcef9d1bac9c58b3a84ed77fc969/_toast.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/.sass-cache/f872c091e101bcef9d1bac9c58b3a84ed77fc969/_tooltip.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/.sass-cache/f872c091e101bcef9d1bac9c58b3a84ed77fc969/_typography.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/.sass-cache/f872c091e101bcef9d1bac9c58b3a84ed77fc969/_variables.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/.sass-cache/f872c091e101bcef9d1bac9c58b3a84ed77fc969/_waves.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/documents/crimelist.txt" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/documents/data.json" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/documents/master_crime_list_2015.xls" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/fonts/roboto/Roboto-Bold.eot" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/fonts/roboto/Roboto-Bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/fonts/roboto/Roboto-Bold.woff" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/fonts/roboto/Roboto-Bold.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/fonts/roboto/Roboto-Light.eot" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/fonts/roboto/Roboto-Light.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/fonts/roboto/Roboto-Light.woff" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/fonts/roboto/Roboto-Light.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/fonts/roboto/Roboto-Medium.eot" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/fonts/roboto/Roboto-Medium.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/fonts/roboto/Roboto-Medium.woff" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/fonts/roboto/Roboto-Medium.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/fonts/roboto/Roboto-Regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/fonts/roboto/Roboto-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/fonts/roboto/Roboto-Regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/fonts/roboto/Roboto-Regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/fonts/roboto/Roboto-Thin.eot" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/fonts/roboto/Roboto-Thin.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/fonts/roboto/Roboto-Thin.woff" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/fonts/roboto/Roboto-Thin.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/images/harvard_shield.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/javascript/autocomplete.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/javascript/autopopulate.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/javascript/initialization.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/javascript/updatepage_post2python.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/python/cards.py" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/python/update_cards.py" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/templates/card_type_datepicker.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/templates/card_type_dropdown.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/templates/finalize.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/templates/footer.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/DJ_Starter/templates/submit.html" afterPath="" />
+      <change type="MOVED" beforePath="$USER_HOME$/Desktop/DJ_Starter/.idea/cji_intake.iml" afterPath="$USER_HOME$/Desktop/DJ_Starter/.idea/dj_starter.iml" />
+      <change type="MOVED" beforePath="$USER_HOME$/Desktop/DJ_Starter/templates/submitted.html" afterPath="$USER_HOME$/Desktop/DJ_Starter/static/css/DataInspector.css" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/documents/mini-master-crime-list.xlsx" afterPath="$USER_HOME$/Desktop/DJ_Starter/static/documents/mini-master-crime-list.xlsx" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/images/developing_justice.png" afterPath="$USER_HOME$/Desktop/DJ_Starter/static/images/developing_justice.png" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/DJ_Starter/.idea/misc.xml" afterPath="$USER_HOME$/Desktop/DJ_Starter/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/DJ_Starter/.idea/modules.xml" afterPath="$USER_HOME$/Desktop/DJ_Starter/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/DJ_Starter/.idea/webServers.xml" afterPath="$USER_HOME$/Desktop/DJ_Starter/.idea/webServers.xml" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/DJ_Starter/.idea/workspace.xml" afterPath="$USER_HOME$/Desktop/DJ_Starter/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/css/styles.css" afterPath="$USER_HOME$/Desktop/DJ_Starter/static/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/javascript/enable_buttons.js" afterPath="$USER_HOME$/Desktop/DJ_Starter/static/javascript/enable_buttons.js" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/javascript/firstcard.js" afterPath="$USER_HOME$/Desktop/DJ_Starter/static/javascript/firstcard.js" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/javascript/updatepage.js" afterPath="$USER_HOME$/Desktop/DJ_Starter/static/javascript/updatepage.js" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/javascript/updatepage_color.js" afterPath="$USER_HOME$/Desktop/DJ_Starter/static/javascript/updatepage_color.js" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/javascript/updatepage_dictionary.js" afterPath="$USER_HOME$/Desktop/DJ_Starter/static/javascript/updatepage_dictionary.js" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/javascript/updatepage_toast.js" afterPath="$USER_HOME$/Desktop/DJ_Starter/static/javascript/updatepage_toast.js" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/python/read_excel.py" afterPath="$USER_HOME$/Desktop/DJ_Starter/static/python/read_excel.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/scss/components/_buttons.scss" afterPath="$USER_HOME$/Desktop/DJ_Starter/static/scss/components/_buttons.scss" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/scss/components/_icons-material-design.scss" afterPath="$USER_HOME$/Desktop/DJ_Starter/static/scss/components/_icons-material-design.scss" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/scss/components/_prefixer.scss" afterPath="$USER_HOME$/Desktop/DJ_Starter/static/scss/components/_prefixer.scss" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/scss/components/_tabs.scss" afterPath="$USER_HOME$/Desktop/DJ_Starter/static/scss/components/_tabs.scss" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/scss/components/_typography.scss" afterPath="$USER_HOME$/Desktop/DJ_Starter/static/scss/components/_typography.scss" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/scss/components/date_picker/_default.date.scss" afterPath="$USER_HOME$/Desktop/DJ_Starter/static/scss/components/date_picker/_default.date.scss" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/scss/components/date_picker/_default.scss" afterPath="$USER_HOME$/Desktop/DJ_Starter/static/scss/components/date_picker/_default.scss" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/DJ_Starter/static/scss/components/date_picker/_default.time.scss" afterPath="$USER_HOME$/Desktop/DJ_Starter/static/scss/components/date_picker/_default.time.scss" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/DJ_Starter/templates/buttons.html" afterPath="$USER_HOME$/Desktop/DJ_Starter/templates/buttons.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/DJ_Starter/templates/card_type.html" afterPath="$USER_HOME$/Desktop/DJ_Starter/templates/card_type.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/DJ_Starter/templates/card_type_select.html" afterPath="$USER_HOME$/Desktop/DJ_Starter/templates/card_type_select.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/DJ_Starter/templates/card_type_textbox.html" afterPath="$USER_HOME$/Desktop/DJ_Starter/templates/card_type_textbox.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/DJ_Starter/templates/headers.html" afterPath="$USER_HOME$/Desktop/DJ_Starter/templates/headers.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/DJ_Starter/templates/layout.html" afterPath="$USER_HOME$/Desktop/DJ_Starter/templates/layout.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/DJ_Starter/templates/nav.html" afterPath="$USER_HOME$/Desktop/DJ_Starter/templates/nav.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/DJ_Starter/templates/splash.html" afterPath="$USER_HOME$/Desktop/DJ_Starter/templates/splash.html" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/DJ$DJ.coverage" NAME="DJ Coverage Results" MODIFIED="1486394593512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="DJ" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Flask Main" />
+        <option value="CSS File" />
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>stude</find>
+      <find>student</find>
+      <find>employ</find>
+      <find>style</find>
+      <find>g.</find>
+      <find>savecurr</find>
+      <find>datum</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/__init__.py" />
+        <option value="$PROJECT_DIR$/instance/config.py" />
+        <option value="$PROJECT_DIR$/app/auth/views.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/db26e17d-2b5e-4b9e-8612-20950779c974/console.sql" />
+        <option value="$PROJECT_DIR$/app/templates/admin/departments/department.html" />
+        <option value="$PROJECT_DIR$/app/templates/admin/roles/roles.html" />
+        <option value="$PROJECT_DIR$/app/templates/admin/roles/role.html" />
+        <option value="$PROJECT_DIR$/app/templates/errors/403.html" />
+        <option value="$PROJECT_DIR$/app/templates/errors/404.html" />
+        <option value="$PROJECT_DIR$/app/templates/errors/500.html" />
+        <option value="$PROJECT_DIR$/app/site/__init__.py" />
+        <option value="$PROJECT_DIR$/app/__init__.py" />
+        <option value="$PROJECT_DIR$/app/site_builder/views.py" />
+        <option value="$PROJECT_DIR$/app/site_builder/__init__.py" />
+        <option value="$PROJECT_DIR$/app/templates/admin/sites/site.html" />
+        <option value="$PROJECT_DIR$/app/templates/admin/sites/sites.html" />
+        <option value="$PROJECT_DIR$/app/static/python/build_site_dirs.py" />
+        <option value="$PROJECT_DIR$/app/templates/site/layout.html" />
+        <option value="$PROJECT_DIR$/app/templates/site/card_type.html" />
+        <option value="$PROJECT_DIR$/app/templates/site/card_type_select.html" />
+        <option value="$PROJECT_DIR$/app/templates/site/card_type_textbox.html" />
+        <option value="$PROJECT_DIR$/app/new_site_template/dj_starter.py" />
+        <option value="$PROJECT_DIR$/app/static/python/format_data.py" />
+        <option value="$PROJECT_DIR$/app/templates/site/admin.html" />
+        <option value="$PROJECT_DIR$/app/static/javascript/save_tmp.js" />
+        <option value="$PROJECT_DIR$/app/templates/home/index.html" />
+        <option value="$PROJECT_DIR$/app/static/css/style.css" />
+        <option value="$PROJECT_DIR$/app/templates/admin/users/user.html" />
+        <option value="$PROJECT_DIR$/app/templates/site/nav.html" />
+        <option value="$PROJECT_DIR$/app/templates/site/home.html" />
+        <option value="$PROJECT_DIR$/app/temp.py" />
+        <option value="$PROJECT_DIR$/app/static/python/check_admin.py" />
+        <option value="$PROJECT_DIR$/app/static/python/check_permission.py" />
+        <option value="$PROJECT_DIR$/app/templates/home/dashboard.html" />
+        <option value="$PROJECT_DIR$/app/templates/admin/sites/user_sites.html" />
+        <option value="$PROJECT_DIR$/app/home/views.py" />
+        <option value="$PROJECT_DIR$/app/templates/base.html" />
+        <option value="$PROJECT_DIR$/app/templates/admin/sites/uploadfile.html" />
+        <option value="$PROJECT_DIR$/app/admin/forms.py" />
+        <option value="$PROJECT_DIR$/app/templates/home/admin_dashboard.html" />
+        <option value="$PROJECT_DIR$/app/templates/admin/users/users.html" />
+        <option value="$PROJECT_DIR$/app/models.py" />
+        <option value="$PROJECT_DIR$/app/admin/views.py" />
+        <option value="$USER_HOME$/Desktop/gojs-master/templates/index.html" />
+        <option value="$USER_HOME$/Desktop/gojs-master/gojs.py" />
+        <option value="$PROJECT_DIR$/app/templates/site/index.html" />
+        <option value="$PROJECT_DIR$/../DJ - Copy/app/static/javascript/save_tmp.js" />
+        <option value="$PROJECT_DIR$/app/static/javascript/indexJs.js" />
+        <option value="$PROJECT_DIR$/app/site/views.py" />
+        <option value="$PROJECT_DIR$/app/static/javascript/autocomplete_maps.js" />
+        <option value="$PROJECT_DIR$/app/static/python/make_cardlist.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1552" />
+    <option name="height" value="840" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DJ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DJ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DJ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DJ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="instance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DJ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DJ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DJ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DJ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\MDaley\PycharmProjects\DJ\app\static\custom_site_data\anotherone\templates" />
+      <recent name="C:\Users\MDaley\PycharmProjects\DJ\app\templates\admin\sites" />
+      <recent name="C:\Users\MDaley\PycharmProjects\DJ\app\templates\home" />
+      <recent name="C:\Users\MDaley\PycharmProjects\DJ\app\static\python" />
+      <recent name="C:\Users\MDaley\PycharmProjects\DJ\app\static" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\MDaley\PycharmProjects\DJ\app\static\custom_site_data\testsite\templates" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.DJ">
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DJ" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DJ" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DJ" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DJ" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="DJ" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DJ" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DJ" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DJ" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DJ" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DJ" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="DJ" type="PythonConfigurationType" factoryName="Python" singleton="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Python27\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DJ" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Python.DJ" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f2f25e80-cb95-43d4-9d30-3b29711144a4" name="Default" comment="" />
+      <created>1486215194357</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1486215194357</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1552" height="840" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22050938" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19176598" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19176598" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19772118" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="8" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/home/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="37" column="29" lean-forward="true" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="35" column="2" lean-forward="false" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/home/dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/home/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="24" column="52" lean-forward="true" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/home/admin_dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/admin/sites/sites.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="25" lean-forward="true" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/admin/sites/uploadfile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/admin/users/users.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="45" column="27" lean-forward="true" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/gojs-master/static/js/indexJs.js" />
+    <entry file="file://$USER_HOME$/Desktop/gojs-master/templates/card.html" />
+    <entry file="file://$USER_HOME$/Desktop/gojs-master/templates/datum.html" />
+    <entry file="file://$USER_HOME$/Desktop/gojs-master/templates/index.html" />
+    <entry file="file://$PROJECT_DIR$/app/static/custom_site_data/anotherone/templates/datum.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/custom_site_data/testsite/templates/datum.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/site/card.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/site/admin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="16" column="43" lean-forward="false" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/site/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="40" column="11" lean-forward="true" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/site/card_type.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DJ - Copy/app/static/javascript/save_tmp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="38" lean-forward="false" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Master Backup/app/static/javascript/save_tmp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="12" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/javascript/indexJs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="488" column="7" lean-forward="false" selection-start-line="488" selection-start-column="6" selection-end-line="488" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/javascript/save_tmp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/javascript/postback.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/javascript/auto_populate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/javascript/enable_buttons.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/javascript/updatepage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/javascript/updatepage_loadmodal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/javascript/updatepage_nextcard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/javascript/autocomplete_lists.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-35103">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/migrations/versions/4cd9de820a2e_.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/migrations/env.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/migrations/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="278" column="49" lean-forward="true" selection-start-line="278" selection-start-column="49" selection-end-line="278" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/javascript/map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/javascript/mapjs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="50" lean-forward="true" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/python/build_site_dirs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/gojs-master/gojs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/python/build_site_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/site/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="10" lean-forward="false" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/custom_site_data/testsite/static/tmp/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/instance/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="44" lean-forward="false" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="41" column="70" lean-forward="false" selection-start-line="41" selection-start-column="56" selection-end-line="41" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#9#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/site/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="62" column="44" lean-forward="false" selection-start-line="62" selection-start-column="44" selection-end-line="62" selection-end-column="44" />
+          <folding>
+            <element signature="e#21#75#0" expanded="false" />
+            <element signature="e#1764#3013#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="52" lean-forward="true" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/python/make_cardlist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="24" column="34" lean-forward="false" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/javascript/autocomplete_maps.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/custom_site_data/testsite/static/tmp/model.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="26" column="25" lean-forward="false" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

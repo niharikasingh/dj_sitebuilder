@@ -1,0 +1,16 @@
+{# IN CASE OF SELECT #}
+{% if card.card_type == "select"%}
+
+    {% include "site/card_type_select.html" %}
+
+{# IN CASE OF TEXTBOX #}
+{% elif card.card_type == "textbox"%}
+
+    {% include "site/card_type_textbox.html" %}
+
+{# IN CASE OF SUBMIT #}
+{% elif card.card_type == "submitted"%}
+
+    {% include "site/submitted_card.html" %}
+
+{% endif %}

@@ -1,0 +1,218 @@
+// harvard colors https://hls.harvard.edu/content/uploads/2016/01/HLS_Graphic_Identity_2016.pdf
+$ink: #1e1e1e;
+$slate: #8996a0;
+$mortar: #8c8179;
+$shade: #bac5c6;
+$parchment: #f4f4f1;
+$crimson: #a51c30;
+$saffron: #D16103;
+// Grey color palette https://www.google.com/design/spec/style/color.html
+$grey50: #FAFAFA; /* Grey 50  */
+$grey100: #F5F5F5; /* Grey 100 */
+$grey200: #EEEEEE; /* Grey 200 */
+$grey300: #E0E0E0; /* Grey 300 */
+$grey400: #BDBDBD; /* Grey 400 */
+$grey500: #9E9E9E; /* Grey 500 */
+$grey600: #757575; /* Grey 600 */
+$grey700: #616161; /* Grey 700 */
+$grey800: #424242; /* Grey 800 */
+$grey900: #212121; /* Grey 900 */
+
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  min-height: 100%;
+  margin: 0;
+  background: $parchment;
+}
+
+#sample {
+  height: 100%;
+}
+
+#myDiagramDiv {
+  width:100%;
+  height:450px;
+}
+
+#myDiagramDivButtons {
+  border-width:0px 0px 1px 0px;
+  border-style: solid;
+  border-color: $ink;
+  vertical-align: middle;
+  padding-bottom: 10px;
+  height: 38px;
+}
+
+#previewVariables {
+  width:20%;
+  height:calc(100% - 488px);
+  display: inline-block;
+  float:right;
+  overflow: scroll;
+  background-color: black;
+  color:white;
+  padding:5px;
+}
+
+#preview {
+  width:80%;
+  display:inline-block;
+  text-align: center;
+  vertical-align: top;
+
+  .js-previewNoCard {
+    margin-top: 100px;
+    font-style: italic;
+    color: $shade;
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .js-previewContainer {
+    display:none;
+    margin-left:auto;
+    margin-right: auto;
+  }
+
+  .js-editTitleText {
+    color: $ink;
+    display: inline;
+    font-size: 1.5rem;
+    border:none;
+    cursor: pointer;
+  }
+
+  .js-editTitleField {
+    color: $saffron;
+    display: inline;
+    font-size: 1.5rem;
+    border-bottom: 1px solid $saffron;
+    display: none;
+  }
+
+  input[type="text"] {
+    overflow: scroll;
+  }
+
+  .js-editAnswerType {
+    display: inline-block;
+    width: 90%;
+  }
+
+  .js-editIconIcon {
+    color: $grey500;
+    display: inline-block;
+    position:absolute;
+    width: 0rem;
+  }
+
+  .js-editIconIcon:hover {
+    color: $saffron;
+    cursor: pointer;
+  }
+}
+
+.js-editIconOptions {
+  padding-right:3rem;
+  padding-top:0.5rem;
+  height: 2.2rem;
+  width: 5%;
+  display: inline-block;
+}
+
+.iconOption {
+  cursor: pointer;
+  position: absolute;
+  background: transparent;
+  box-shadow: 0;
+  opacity: 0;
+  transition: .5s all;
+  display: inline-block;
+}
+
+#mySavedModel {
+  display: none;
+}
+
+.js-editButtonWrapper {
+  display: inline-block;
+}
+
+.js-editButtonIcon {
+  margin-left: 5px;
+  margin-right: 5px;
+  min-width: 50px;
+  overflow: scroll;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+#css-buttonField {
+  background-color: $saffron;
+  border-bottom: 1px solid white;
+  color: white;
+  max-width: 75px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 0px;
+  display: none;
+  text-transform: uppercase;
+  height: 54px;
+  cursor: text;
+  padding: 0 2rem;
+  border-radius: 2px;
+}
+
+.diagramEditButton, .diagramEditButton:focus {
+  background-color: $parchment;
+  color: $ink;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+  border: 1px solid $ink;
+  -webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+  margin-left: 10px;
+  min-width: 100px;
+}
+
+.diagramEditButton:hover {
+  background-color: $shade;
+}
+
+.diagramEditButton:disabled {
+  color: $shade;
+  border: 1px solid $shade;
+}
+
+.diagramEditButton:disabled:hover {
+  background-color: $parchment;
+}
+
+.ddButtonWrapper {
+  display: inline-block;
+  position:relative;
+}
+
+.ddButton {
+  position:absolute;
+  display: none;
+  cursor: pointer;
+  margin: 0px;
+  li {
+    padding: 2px 6px 2px 6px;
+    border-bottom: 0px;
+  }
+  li:last-child {
+    border-bottom: 1px solid $ink;
+  }
+}
+.ddButton.show {
+  display:block;
+  z-index:1;
+  top:25px;
+}

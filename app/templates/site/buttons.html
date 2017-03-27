@@ -1,0 +1,15 @@
+<div class="row center">
+    {% for button in card.card_buttons %}
+        <button class="btn-large waves-effect waves-white"
+                disabled
+                name="{{ card.card_id }}_BUTTON"
+                value="{{ card.card_buttons[button] }}"
+                onclick="update_page(
+                        '{{ card.card_id }}',
+                        '{{ card.card_type }}',
+                        '{{ card.card_buttons[button] }}');">
+            {{ button }}
+        </button>
+    {% endfor %}
+</div>
+

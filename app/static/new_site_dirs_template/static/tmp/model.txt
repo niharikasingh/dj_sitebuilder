@@ -1,0 +1,80 @@
+{
+    "class": "go.GraphLinksModel", 
+    "copiesArrayObjects": true, 
+    "copiesArrays": true, 
+    "linkDataArray": [
+        {
+            "from": 1, 
+            "fromPort": "right0", 
+            "to": -17, 
+            "toPort": "left0"
+        }, 
+        {
+            "from": 1, 
+            "fromPort": "right1", 
+            "to": -17, 
+            "toPort": "left0"
+        }
+    ], 
+    "linkFromPortIdProperty": "fromPort", 
+    "linkToPortIdProperty": "toPort", 
+    "nodeDataArray": [
+        {
+            "Action": "", 
+            "Comments": "", 
+            "ICON_ATTRIBUTE": "", 
+            "KEY_NAME": "", 
+            "LOGIC": "", 
+            "SubText": "", 
+            "VALIDATION": "", 
+            "card_auto_populate": "", 
+            "card_buttons": "", 
+            "card_class": "", 
+            "card_helptext": "", 
+            "card_icon": "face", 
+            "card_id": "", 
+            "card_pattern": "", 
+            "card_subtext": "student name", 
+            "card_text": "", 
+            "card_type": "", 
+            "choice1": true, 
+            "first_button": "", 
+            "flag": true, 
+            "goto_key": "", 
+            "group": "g1", 
+            "key": 1, 
+            "leftArray": [], 
+            "loc": "105.53320312499999 303.66328124999995", 
+            "name": "Question Text", 
+            "newproprties": "", 
+            "rightArray": [
+                {
+                    "name": "ANSWER 1", 
+                    "portColor": "lightblue", 
+                    "portId": "right0"
+                }, 
+                {
+                    "name": "ANSWER 2", 
+                    "portColor": "lightblue", 
+                    "portId": "right1"
+                }
+            ], 
+            "type": ""
+        }, 
+        {
+            "bottomArray": [], 
+            "key": -17, 
+            "leftArray": [
+                {
+                    "name": "connect", 
+                    "portColor": "black", 
+                    "portId": "left0"
+                }
+            ], 
+            "loc": "4375.65283203125 145", 
+            "name": "END", 
+            "rightArray": [], 
+            "topArray": []
+        }
+    ]
+}

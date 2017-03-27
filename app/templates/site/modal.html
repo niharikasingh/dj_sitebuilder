@@ -1,0 +1,30 @@
+<div id="modal" class="modal modal-fixed-footer">
+    <div class="modal-content">
+        <div class="row">
+            <div class="col s12 center modal-title">
+                <h3>Would you like to submit the following information?</h3>
+            </div>
+        </div>
+        {% block content %}
+            {% for card in cardlist %}
+                <div class="row" {% if loop.index0 % 2 == 0 %} style="background-color: #f4f4f4" {% endif %}>
+                    <div class="col s1"></div>
+                    <div class="col s3">
+                        <h6>{{ card.card_subtext }}</h6>
+                    </div>
+                    <div class="col s1"></div>
+                    <div class="col s7">
+                        <i class="material-icons prefix tiny">{{ card.card_icon }}</i>
+                        <div class="input-field inline">
+                            <input id="{{ card.card_id }}_MODAL">
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        {% endblock %}
+    </div>
+    <div class="modal-footer">
+        <a onclick="submitdata()" class="modal-action modal-close waves-effect waves-white btn-flat">Submit</a>
+        <a onclick="" class="modal-action modal-close waves-effect waves-white btn-flat">Cancel</a>
+    </div>
+</div>

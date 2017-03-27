@@ -1,0 +1,39 @@
+{# TEXTBOX CARD #}
+<div class="col s12" id="{{ card.card_id }}_CARD" style="display: None">
+    <div class="card">
+        <div class="card-content">
+
+            {# QUESTION #}
+            <h3 class="card-title center-align">{{ card.card_text }}</h3>
+
+            {# INPUT FIELD #}
+            <div class="input-field col s12">
+                <i class="material-icons prefix">{{ card.card_icon }}</i>
+                <input
+                        id="{{ card.card_id }}"
+                        class="{{ card.card_class }}"
+                        type="text"
+                        pattern="{{ card.card_pattern }}"
+                        onchange="enable_buttons(this)"
+                        onkeyup="enable_buttons(this)"
+                        data-auto_complete="{{ card.card_auto_complete }}"
+                        data-auto_populate="{{ card.card_auto_populate }}"
+                        onfocus="auto_populate(this)"
+                        {% if card.card_icon == 'add_location' %}placeholder=""{% endif %}>
+
+                <label  for="{{ card.card_id }}{{ card.card_type }}"
+                        data-error="Unable to Validate Input"
+                        data-success="Great!">{{ card.card_subtext }}</label>
+            </div>
+
+            {# BUTTONS #}
+            {% include "site/buttons.html" %}
+
+            {# HELP ICON #}
+{#            <h4><i class="activator small material-icons">info_outline</i></h4>#}
+        </div>
+
+        {# HELP_BOX #}
+{#        {% include "help_box.html" %}#}
+    </div>
+</div>

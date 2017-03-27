@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+    <head>
+
+        {# TITLE #}
+        <title>Criminal Justice Institute Intake Project Student Email</title>
+
+        {# META #}
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+        {# LINKS #}
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+
+        <style>
+            .body {
+                font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif !important;
+                background-color: #f6f6f6 !important;
+
+            }
+            .card {
+                padding: 15px;
+            }
+
+            .card-title{
+                color: black;
+                border-bottom: 1px solid #C3D7A4 !important;
+                box-shadow: 0 1px 0 0 #C3D7A4 !important
+            }
+
+            h6 {
+                font-size: 8pt; !important
+            }
+
+        </style>
+
+    </head>
+    <body class="body">
+        <div class="content-wrapper">
+            <div class="container"></div>
+                <div class="row">
+                    <div class="col m2">
+                    </div>
+                    <div class="col s12 m8">
+                        <div class="card">
+                            <div class="card-title center-align">
+                                <h1>CJI Intake Assistant</h1>
+                            </div>
+                            <div class="card-body">
+                                <p>Hello, {{ student_name }}!</p>
+                                <p>Congratulations on completing your web intake for {{ client_name }}! All of your documents for {{ client_salutation }}'s case are attached to this email. Make sure to save these documents somewhere safe!</p>
+                                <p>I've also attached a calendar invite for your client's next court date.  Don't forget to invite your clinical instructor so that it will be on their calendar as well.  I sent them an email to let them know about your new case, but you should still plan on touching base with them as soon as possible.</p>
+                                <p>All the best,</p>
+                                <p>CJI Intake Assistant</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col m2">
+                    </div>
+                    <div class="col s12">
+                        <div class="footer center-align">
+                            <h6>Criminal Justice Institute @ Harvard Law School</h6>
+                            <h6>6 Everett Street, 5th Floor</h6>
+                            <h6>Cambridge, MA  02138</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

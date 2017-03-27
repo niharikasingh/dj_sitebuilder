@@ -1,0 +1,19 @@
+<body>
+
+    {# NAV HEADER #}
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper white">
+                <a class="brand-logo left" style="width: 20%; min-width: 240pt"><img src="/static/images/developing_justice.png" style="width: 20%; min-width: 240pt; padding: 5pt"></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                      {% if current_user.is_admin %}
+                          <li><a class="ink-text" href="{{ url_for('site.admin', site_url_slug=g.site.site_url_slug) }}">Admin</a></li>
+                          <li><a class="ink-text" href=".">Reset Form</a></li>
+                      {% else %}
+                          <li><a class="ink-text" href=".">Reset Form</a></li>
+                      {% endif %}
+                </ul>
+            </div>
+        </nav>
+    </div>
+

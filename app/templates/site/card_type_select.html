@@ -1,0 +1,12 @@
+{# SELECT CARD #}
+<div class="col s12" id="{{ card.card_id }}_CARD" style="display: None">
+    <div class="card">
+        <div class="card-content">
+            <h4 class="card-title center-align">{{ card.card_text }}</h4>
+            <h4 class="card-title center-align">{{ card.card_subtext }}</h4><br>
+            {% include "site/buttons.html" %}
+            <h4><i class="activator small material-icons">info_outline</i></h4>
+        </div>
+{#        {% include "help_box.html" %}#}
+    </div>
+</div>
