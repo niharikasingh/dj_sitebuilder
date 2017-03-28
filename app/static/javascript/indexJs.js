@@ -1,9 +1,13 @@
 $(function(){
 
   //disable buttons because nodes are not yet visible
-  $('.js-addQuestionButton').attr("disabled", true);
+  $('.js-addAnswerButton').attr("disabled", true);
+  $('.js-removeAnswerButton').attr("disabled", true);
   $('.js-removeQuestionButton').attr("disabled", true);
   $('.js-saveButton').attr("disabled", true);
+
+  //build list of possible select options
+  var selectOptions = ["textfield", "fileupload", "none"];
 
 //*************************
 //INITIALIZE GRAPH
@@ -54,11 +58,13 @@ $(function(){
     editButtons(part.data.rightArray);
     var iconText = (part.data.card_icon == null) ? "face" : part.data.card_icon;
     $("#selectedIcon").text(iconText);
-    var placeholderText = "Text Field";
-    $(".js-editAnswerType").attr("placeholder", placeholderText);
+    var answerType = part.data.answerType;
+    if ($.inArray(answerType, selectOptions) == -1) answerType = "none";
+    $(".js-editAnswerType").val(answerType).prop('selected', true);
     currentKeyID = part.data.key;
     currentNodeData = myDiagram.model.findNodeDataForKey(currentKeyID);
     //update add/remove buttons based on current node
+    $('.js-addAnswerButton').attr("disabled", false);
     if (part.data.rightArray.length <= 1) $('.js-removeAnswerButton').attr("disabled", true);
     else $('.js-removeAnswerButton').attr("disabled", false);
     $('.js-addQuestionButton').attr("disabled", false);
@@ -73,6 +79,7 @@ $(function(){
   myDiagram.addDiagramListener("Modified", function(e) {
     if (myDiagram.isModified) {
       $('.js-saveButton').attr("disabled", false);
+      myDiagram.isModified = false;
     }
     else {
       $('.js-saveButton').attr("disabled", true);
@@ -134,7 +141,7 @@ $(function(){
           { _side: "left",
           fromSpot: go.Spot.Left,
           toSpot: go.Spot.Left,
-          fromLinkable: true,
+          fromLinkable: false,
           toLinkable: true,
           cursor: "pointer"
         },
@@ -154,24 +161,36 @@ $(function(){
       itemTemplate:
       GO(go.Panel,
         { _side: "right",
+        alignment: go.Spot.Right,
+        alignmentFocus: go.Spot.Right,
         fromSpot: go.Spot.Right,
         toSpot: go.Spot.Right,
         fromLinkable: true,
-        toLinkable: true,
+        toLinkable: false,
+        fromMaxLinks: 1,
         cursor: "pointer"
       },
       new go.Binding("portId", "portId"),
       GO(go.Shape, "Rectangle",
-      { stroke: null,
+      { alignment: go.Spot.Right,
+        alignmentFocus: go.Spot.Right,
+        stroke: null,
         strokeWidth: 0,
         desiredSize: portSize,
+        //height: portSize.height,
+        stretch: go.GraphObject.Horizontal,
         margin: new go.Margin(1,2,1,0) },
         new go.Binding("fill", "portColor")),
         GO(go.TextBlock,
-          { margin: 10,
-            textAlign: "center",
+          { verticalAlignment: go.Spot.MiddleLeft,
+            margin: new go.Margin(1,0,0,5),
+            textAlign: "left",
+            overflow: go.TextBlock.OverflowEllipsis,
             font: "18px  Segoe UI,sans-serif",
             stroke: "white",
+            //desiredSize: portSize,
+            height: portSize.height,
+            width: portSize.width-5,
             editable: false },
 
             new go.Binding("text", "name").makeTwoWay())
@@ -286,6 +305,7 @@ $(function(){
 
   $('.js-editTitleField').focusout(function(e){
     if (editTitleField == true) {
+      myDiagram.startTransaction("editTitleField");
       var editedText = ($('.js-editTitleField').val().length == 0) ? "Enter question here." : $('.js-editTitleField').val();
       $('.js-editTitleField').val("");
       $(this).hide();
@@ -293,6 +313,8 @@ $(function(){
       $(this).siblings('.js-editTitleText').html(editedText);
       editTitleField = false;
       if (currentNodeData !== null) myDiagram.model.setDataProperty(currentNodeData, "name", editedText);
+      myDiagram.isModified = true;
+      myDiagram.commitTransaction("editTitleField");
     }
   });
 
@@ -327,6 +349,7 @@ $(function(){
       editIconField = true;
     }
     else {
+      myDiagram.startTransaction("editIconOptions");
       $('.iconOption').each(function(i) {
         $(this).css("opacity", 0);
         var translatestr = "translate(0px,0px)";
@@ -340,6 +363,8 @@ $(function(){
       $('#selectedIcon').text(selectedIcon);
       e.target.innerText = currentIcon;
       if (currentNodeData !== null) myDiagram.model.setDataProperty(currentNodeData, "card_icon", selectedIcon);
+      myDiagram.isModified = true;
+      myDiagram.commitTransaction("editIconOptions");
     }
   });
 
@@ -357,6 +382,7 @@ $(function(){
 
   $('.js-buttonWrapper').on("focusout", function(e){
     if (editButtonField == true) {
+      myDiagram.startTransaction("editButtonWrapper");
       var editedText = $(e.target).val();
       editedText = editedText.toUpperCase()
       $(e.target).val("");
@@ -367,6 +393,8 @@ $(function(){
       editButtonField = false;
       var i = $('.js-editButtonField').index($(e.target));
       if (currentNodeData !== null) myDiagram.model.setDataProperty(currentNodeData.rightArray[i], "name", editedText); //currentNodeData.rightArray[i].name = editedText;
+      myDiagram.isModified = true;
+      myDiagram.commitTransaction("editButtonWrapper");
     }
     layout();
   });
@@ -386,6 +414,34 @@ $(function(){
   $('.js-loadButton').click(function(e) {
     $(".js-loadButton~.ddButton").toggleClass("show");
   });
+
+  $(".js-loadButton~.ddButton li").click(function(e) {
+    var fileNeeded = '';
+    if ($(this).hasClass("js-loadContactInfo")) fileNeeded = "ContactInfo.json";
+    else if ($(this).hasClass("js-loadDemographics")) fileNeeded = "Demographics.json";
+    else if ($(this).hasClass("js-loadEnd")) fileNeeded = "End.json";
+    myDiagram.startTransaction("loadTemplate");
+    $.ajax({
+       url: '/loadtemplate',
+       type: 'GET',
+       dataType: 'json',
+       data: {
+         payload: fileNeeded,
+         data: 'json'
+       }
+    }).done(function(data) {
+      origJson = JSON.parse(myDiagram.model.toJson());
+      //dataJson = JSON.parse(data);
+      dataJson = data;
+      dataJson.nodeDataArray = dataJson.nodeDataArray.concat(origJson.nodeDataArray);
+      dataJson.linkDataArray = dataJson.linkDataArray.concat(origJson.linkDataArray);
+      myDiagram.model = go.Model.fromJson(dataJson);
+      document.getElementById("mySavedModel").value = JSON.stringify(dataJson);
+    });
+    myDiagram.isModified = true;
+    myDiagram.commitTransaction("loadTemplate");
+    $(".js-loadButton~.ddButton").toggleClass("show");
+  })
 
   //add rightport to current node
   $('.js-addAnswerButton').click(function(e) {
@@ -417,7 +473,7 @@ $(function(){
   $('.js-addQuestionButton').click(function(e) {
     var currP = myDiagram.position;
     var p = new go.Point(150+currP.x,50+currP.y);
-    myDiagram.toolManager.clickCreatingTool.insertPart(p);
+    var newPart = myDiagram.toolManager.clickCreatingTool.insertPart(p);
   });
 
   //remove another node from graph
@@ -463,18 +519,14 @@ $(function(){
       link.dispatchEvent(event);
       document.body.removeChild(link);
 		});
+    $(".js-saveButton~.ddButton").toggleClass("show");
   });
 
   //save current graph to server
   $('.js-saveRemoteButton').click(function (e) {
-    // below is a really awkward solution to the problem of telling javascript what site to route the post request to
-    // we should discuss a better way to do this, i just don't know javascript well enough to know how
-    var site_url = window.location.href;
-    var site_url_slug = site_url.split("/")[3];
-    var post_url = "/".concat(site_url_slug).concat("/savecurrmodel");
-
+    myDiagram.startTransaction("save");
     $.ajax({
-       url: post_url,
+       url: '/savecurrmodel',
        type: 'GET',
        dataType: 'json',
        data: {
@@ -484,6 +536,7 @@ $(function(){
     });
     myDiagram.isModified = false;
     $(".js-saveButton~.ddButton").toggleClass("show");
+    myDiagram.commitTransaction("save");
   });
 
   //update buttons shown on the preview card
@@ -497,5 +550,13 @@ $(function(){
     }
     $(".js-buttonWrapper").html(buttonStr);
   }
+
+  //if answertype select box changes
+  $(".js-editAnswerType").change(function (e) {
+    myDiagram.startTransaction("editAnswerType");
+    if (currentNodeData !== null) myDiagram.model.setDataProperty(currentNodeData, "answerType", $(".js-editAnswerType option").filter(":selected").val());
+    myDiagram.isModified = true;
+    myDiagram.commitTransaction("editAnswerType");
+  });
 
 });
