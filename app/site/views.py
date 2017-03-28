@@ -34,7 +34,7 @@ def site_home():
     # calibrate site-specific paths: static, upload folder
 
     app_root = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
-    path2model = os.path.join(app_root, 'static\\custom_site_data', site_url_slug, 'static\\tmp\\model.txt')
+    path2model = os.path.join(app_root, 'static/custom_site_data', site_url_slug, 'static/tmp/model.txt')
 
     cardlist = make_cardlist.make_cardlist(path2model)
     return render_template('site/layout.html', cardlist=cardlist)
@@ -52,7 +52,7 @@ def admin():
     # calibrate site-specific paths: static, upload folder
 
     app_root = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
-    path2model = os.path.join(app_root, 'static\\custom_site_data', site_url_slug, 'static\\tmp\\model.txt')
+    path2model = os.path.join(app_root, 'static/custom_site_data', site_url_slug, 'static/tmp/model.txt')
 
     with open(path2model) as model:
         currModel = json.load(model)
@@ -67,7 +67,7 @@ def submit():
     # calibrate site-specific paths: static, upload folder
 
     app_root = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
-    path2static = os.path.join(app_root, 'static\\custom_site_data', site_url_slug, 'static')
+    path2static = os.path.join(app_root, 'static/custom_site_data', site_url_slug, 'static')
     path2documents = os.path.join(path2static, 'documents')
 
     # Store posted_data in variable card_dictionary
@@ -107,12 +107,19 @@ def post_data():
     # calibrate site-specific paths: static, upload folder
 
     app_root = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
-    path2static = os.path.join(app_root, 'static\\custom_site_data', site_url_slug, 'static')
+    path2static = os.path.join(app_root, 'static/custom_site_data', site_url_slug, 'static')
 
-    with open(os.path.join(path2static, 'tmp\\model.txt'), 'w') as write_file:
+    with open(os.path.join(path2static, 'tmp/model.txt'), 'w') as write_file:
         json.dump(currModel, write_file, indent=4, sort_keys=True)
     return "OK"
 
+@site.route('/loadtemplate', methods = ['GET'])
+def loadtemplate():
+    loadFileName = request.args.get("payload")
+    loadTemplate = {}
+    with open("/templates/jstemplates/" + loadFileName) as loadFile:
+        loadTemplate = loadFile.readlines()
+    return " ".join(loadTemplate), 200
 
 def splititup(i):
     j = i.split('<div class="container">',1)[1]
