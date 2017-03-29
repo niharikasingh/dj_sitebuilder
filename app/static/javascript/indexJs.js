@@ -9,6 +9,22 @@ $(function(){
   //build list of possible select options
   var selectOptions = ["textfield", "fileupload", "none"];
 
+  //certain divs can be resized
+ $("#topHalfWrapper").resizable({ handles: "s", resize: function(e, ui) {
+   var tempHeight = $("#topHalfWrapper").outerHeight(true);
+   var fullHeight = $(document).height();
+   $("#previewVariables").height(fullHeight-tempHeight);
+   tempHeight -= $("#myDiagramDivButtons").outerHeight(true);
+   $("#myDiagramDiv").height(tempHeight);
+   myDiagram.requestUpdate();
+ } });
+ $("#preview").resizable({ handles: "e", resize: function(e, ui) {
+   var tempWidth = $("#preview").outerWidth(true);
+   var fullWidth = $(document).width();
+   $("#previewVariables").outerWidth(fullWidth-tempWidth);
+   $("#previewVariables").css("left", "0px");
+ } });
+
 //*************************
 //INITIALIZE GRAPH
 //*************************
@@ -33,6 +49,8 @@ $(function(){
       "undoManager.isEnabled": true
   });
 
+  var inspector = getinspector();
+  
   go.Diagram.inherit(DragLinkingTool, go.DraggingTool);
   myDiagram.toolManager.draggingTool = new DragLinkingTool();
 
