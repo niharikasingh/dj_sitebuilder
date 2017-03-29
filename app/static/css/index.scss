@@ -28,13 +28,24 @@ body {
   background: $parchment;
 }
 
-#sample {
-  height: 100%;
+#topHalfWrapper {
+  min-height: 20%;
+  max-height: 80%;
 }
 
 #myDiagramDiv {
   width:100%;
+  min-height: 20%;
   height:450px;
+  ::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 5px;
+  }
+  ::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, .5);
+    -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+  }
 }
 
 #myDiagramDivButtons {
@@ -42,12 +53,16 @@ body {
   border-style: solid;
   border-color: $ink;
   vertical-align: middle;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
   height: 38px;
+  overflow: scroll;
 }
 
 #previewVariables {
   width:20%;
+  min-width: 20%;
+  max-width: 50%;
   height:calc(100% - 488px);
   display: inline-block;
   float:right;
@@ -59,6 +74,8 @@ body {
 
 #preview {
   width:80%;
+  min-width: 50%;
+  max-width: 80%;
   display:inline-block;
   text-align: center;
   vertical-align: top;
@@ -196,6 +213,11 @@ body {
   position:relative;
 }
 
+.ddButtonOptionsWrapper {
+  position: fixed;
+  z-index:1;
+}
+
 .ddButton {
   position:absolute;
   display: none;
@@ -212,7 +234,6 @@ body {
 .ddButton.show {
   display:block;
   z-index:1;
-  top:25px;
 }
 
 .js-editAnswerType {
@@ -245,3 +266,15 @@ body {
     margin-left: 0px;
   }
 }
+
+.ui-resizable { position: relative;}
+.ui-resizable-handle { position: absolute;font-size: 0.1px; display: block; }
+.ui-resizable-disabled .ui-resizable-handle, .ui-resizable-autohide .ui-resizable-handle { display: none; }
+.ui-resizable-n { cursor: n-resize; height: 7px; width: 100%; top: -5px; left: 0; }
+.ui-resizable-s { cursor: s-resize; height: 7px; width: 100%; bottom: -5px; left: 0; }
+.ui-resizable-e { cursor: e-resize; width: 7px; right: -5px; top: 0; height: 100%; }
+.ui-resizable-w { cursor: w-resize; width: 7px; left: -5px; top: 0; height: 100%; }
+.ui-resizable-se { cursor: se-resize; width: 12px; height: 12px; right: 1px; bottom: 1px; }
+.ui-resizable-sw { cursor: sw-resize; width: 9px; height: 9px; left: -5px; bottom: -5px; }
+.ui-resizable-nw { cursor: nw-resize; width: 9px; height: 9px; left: -5px; top: -5px; }
+.ui-resizable-ne { cursor: ne-resize; width: 9px; height: 9px; right: -5px; top: -5px;}

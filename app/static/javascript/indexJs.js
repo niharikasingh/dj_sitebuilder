@@ -9,6 +9,22 @@ $(function(){
   //build list of possible select options
   var selectOptions = ["textfield", "fileupload", "none"];
 
+  //certain divs can be resized
+  $("#topHalfWrapper").resizable({ handles: "s", resize: function(e, ui) {
+    var tempHeight = $("#topHalfWrapper").outerHeight(true);
+    var fullHeight = $(document).height();
+    $("#previewVariables").height(fullHeight-tempHeight);
+    tempHeight -= $("#myDiagramDivButtons").outerHeight(true);
+    $("#myDiagramDiv").height(tempHeight);
+    myDiagram.requestUpdate();
+  } });
+  $("#preview").resizable({ handles: "e", resize: function(e, ui) {
+    var tempWidth = $("#preview").outerWidth(true);
+    var fullWidth = $(document).width();
+    $("#previewVariables").outerWidth(fullWidth-tempWidth);
+    $("#previewVariables").css("left", "0px");
+  } });
+
 //*************************
 //INITIALIZE GRAPH
 //*************************
@@ -326,6 +342,7 @@ $(function(){
 
   //edit icon on the card
   var editIconField = false;
+  var ICONLIST = ["language", "face", "date_range", "local_phone", "mail_outline", "attach_file", "attach_money"];
   $('.js-editIconOptions').hover(function(e) {
     $('.js-editIconIcon').css("color", "#D16103"); //$saffron
   }, function(e) {
@@ -338,11 +355,17 @@ $(function(){
       var blocks = $('.iconOption').length;
       var radius = 50;
       var angle = (2*Math.PI)/blocks;
+      var usedIcon = $('#selectedIcon').text();
+      var remIcons = JSON.parse(JSON.stringify(ICONLIST));
+      remIcons.splice($.inArray(usedIcon, remIcons), 1);
       $('.iconOption').each(function(i) {
         $(this).css("opacity", 1);
-        var x = (Math.sin(angle*i)*radius);
-        var y = (Math.cos(angle*i)*radius);
+        var x = Math.round((Math.sin(angle*i)*radius));
+        var y = Math.round((Math.cos(angle*i)*radius));
         var translatestr = "translate("+x+"px,"+y+"px)";
+        var tempIcon = remIcons[0];
+        $(this).children(i).text(tempIcon);
+        remIcons.splice($.inArray(tempIcon, remIcons), 1);
         $(this).css("transform", translatestr);
       });
       $('.js-editIconIcon').css("color", "#D16103"); //$saffron
@@ -412,10 +435,10 @@ $(function(){
 
   //load premade template
   $('.js-loadButton').click(function(e) {
-    $(".js-loadButton~.ddButton").toggleClass("show");
+    $(".js-loadButton~.ddButtonOptionsWrapper>.ddButton").toggleClass("show");
   });
 
-  $(".js-loadButton~.ddButton li").click(function(e) {
+  $(".js-loadButton~.ddButtonOptionsWrapper>.ddButton li").click(function(e) {
     var fileNeeded = '';
     if ($(this).hasClass("js-loadContactInfo")) fileNeeded = "ContactInfo.json";
     else if ($(this).hasClass("js-loadDemographics")) fileNeeded = "Demographics.json";
@@ -440,7 +463,7 @@ $(function(){
     });
     myDiagram.isModified = true;
     myDiagram.commitTransaction("loadTemplate");
-    $(".js-loadButton~.ddButton").toggleClass("show");
+    $(".js-loadButton~.ddButtonOptionsWrapper>.ddButton").toggleClass("show");
   })
 
   //add rightport to current node
@@ -493,7 +516,7 @@ $(function(){
 
   //show save options to user
   $('.js-saveButton').click(function(e) {
-    $(".js-saveButton~.ddButton").toggleClass("show");
+    $(".js-saveButton~.ddButtonOptionsWrapper>.ddButton").toggleClass("show");
     document.getElementById("mySavedModel").value = myDiagram.model.toJson();
   });
 
@@ -519,7 +542,7 @@ $(function(){
       link.dispatchEvent(event);
       document.body.removeChild(link);
 		});
-    $(".js-saveButton~.ddButton").toggleClass("show");
+    $(".js-saveButton~.ddButtonOptionsWrapper>.ddButton").toggleClass("show");
   });
 
   //save current graph to server
@@ -535,7 +558,7 @@ $(function(){
        }
     });
     myDiagram.isModified = false;
-    $(".js-saveButton~.ddButton").toggleClass("show");
+    $(".js-saveButton~.ddButtonOptionsWrapper>.ddButton").toggleClass("show");
     myDiagram.commitTransaction("save");
   });
 

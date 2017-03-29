@@ -1,9 +1,15 @@
-# app/models.py
-
+from flask import Flask
+from flask.ext.sqlalchemy import SQLAlchemy
 from flask_login import UserMixin
 from werkzeug.security import generate_password_hash, check_password_hash
 
 from app import db, login_manager
+
+
+app = Flask(__name__)
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://dj_admin:dj2017@localhost/dj_v2'
+db = SQLAlchemy(app)
+
 
 class User(UserMixin, db.Model):
     """
@@ -44,8 +50,8 @@ class User(UserMixin, db.Model):
          """
          return check_password_hash(self.password_hash, password)
 
-    def __repr__(self):
-        return '<User: {}>'.format(self.name)
+    # def __repr__(self):
+    #     return '<User: {}>'.format(self.name)
 
 
 @login_manager.user_loader
@@ -115,3 +121,29 @@ class SitePermission(db.Model):
 
     def __repr__(self):
         return '<SitePermission: {}>'.format(self.id)
+
+
+
+
+
+
+db.create_all()
+db.session.commit()
+
+
+
+# from sqlalchemy import create_engine
+# engine = create_engine("mysql://dj_admin:dj2017@localhost/dj_v2")
+#
+# # from sqlalchemy import inspect
+# # inspector = inspect(engine)
+#
+# # for table_name in inspector.get_table_names():
+# #    for column in inspector.get_columns(table_name):
+# # #        print("Column: %s" % column['name'])
+#
+#
+# x = User.query.filter_by(email='wpalin@gmail.com').first()
+# print x.email
+# print x.first_name
+# print x.last_name
